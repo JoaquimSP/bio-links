@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;;
+}
+
+html {
+    height: 100vh; /* Totalmente a altura da tela */
+    font-size: 14px;
+}
+
+body {
+    background-color: #282828;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 550px; /* Largura máxima */
+    margin: 0 auto; /* Centralizando */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.gradient {
+    background: linear-gradient(to right, #1A7DF0, rgb(26, 25, 25));
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 200px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em; /* 2x o tamanho da fonte do elemento da pai (14px no caso) */
+    margin-bottom: 10px;
+    color: #1A7DF0;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.btn-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    transition: .2s;
+}
+
+a.link i {
+    font-size: 1.5em;
+}
+
+a.link button:hover {
+    transform: scale(1.05);
+}
+
+a.link button:hover, footer a.btn-footer:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+.btn-footer {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+}
