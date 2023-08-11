@@ -5,6 +5,6 @@
 
  ✅ Tecnologias utilizadas: HTML5, CSS3 & Bootstrap.
 
- 🔗 <a href="https://joaquimsp.github.io/bio-links/" target="_blank">Clique aqui para visitar o projeto</a>
+ 🔗 <a href="https://joaquimsp.github.io/bio-links/">Clique aqui para visitar o projeto</a>
 
 <img src="img/print-screen-page.png" alt="Print Screen Page">
